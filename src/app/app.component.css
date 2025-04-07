@@ -1,0 +1,61 @@
+h1 { 
+    font-size: 24px; 
+    color: #333; 
+    text-align: center; 
+  } 
+   
+  /* Style the input and button container */ 
+  div { 
+    text-align: center; 
+    margin-top: 20px;
+} 
+   
+input[type="text"] { 
+  width: 25%; 
+  padding: 10px; 
+  font-size: 16px; 
+  border: 1pxsolid#ccc; 
+  border-radius: 5px; 
+} 
+ 
+button { 
+  padding: 10px20px; 
+  font-size: 16px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+} 
+ 
+button:hover { 
+  background-color: #0056b3; 
+} 
+ 
+/* Style the list of tasks */ 
+ul { 
+  list-style-type: none; 
+  padding: 0; 
+} 
+ 
+li { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px0; 
+} 
+ 
+/* Style the remove button */ 
+libutton { 
+  padding: 5px10px; 
+  font-size: 14px; 
+  background-color: #ff0000; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+} 
+ 
+libutton:hover { 
+  background-color: #cc0000; 
+}
